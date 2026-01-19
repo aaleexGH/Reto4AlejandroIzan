@@ -6,7 +6,6 @@ public class Barco {
 	protected double capacidadCombustiible;
 	
 	
-	
 	public void calcuarAutonomia() {
 		
 	}
