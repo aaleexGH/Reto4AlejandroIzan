@@ -40,12 +40,12 @@ public class Barco {
 	
 	@Override
 	public String toString() {
-		return "Barco [Nombre=" + Nombre + ", motor=" + motor + ", capacidadCombusitble=" + capacidadCombusitble
-				+ ", toString()=" + super.toString() + "]";
+		return "Barco: " + Nombre + "| Motor: " + motor + "| Capacidad Combusitble: " + capacidadCombusitble
+				+ "| " + super.toString();
 	}
 
-	public void calcuarAutonomia() {
-		
+	public double calcuarAutonomia() {
+		return capacidadCombusitble / motor.getConsumo();
 	}
 
 	
