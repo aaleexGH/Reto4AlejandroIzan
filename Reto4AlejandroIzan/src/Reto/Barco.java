@@ -1,5 +1,6 @@
 package Reto;
 
+
 public class Barco {
 
 	protected String Nombre;
@@ -46,6 +47,7 @@ public class Barco {
 	public void calcuarAutonomia() {
 		
 	}
+
 	
 	
 	
