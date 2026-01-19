@@ -1,5 +1,15 @@
 package Reto;
 
-public class Barco extends Puerto {
+
+public class Barco {
+
+	protected String Nombre;
+	protected double capacidadCombustiible;
+	
+	
+	public void calcuarAutonomia() {
+		
+	}
+
 	
 }
