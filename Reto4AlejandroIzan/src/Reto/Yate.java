@@ -18,7 +18,7 @@ public class Yate extends Barco {
 
 	@Override
 	public String toString() {
-		return "Yate [camarotes=" + camarotes + ", toString()=" + super.toString() + "]";
+		return "Yate: " + camarotes + "| " + super.toString();
 	}
 	
 	
