@@ -1,5 +1,5 @@
 package Reto;
 
-public class Barco {
+public class Barco extends Puerto {
 
 }

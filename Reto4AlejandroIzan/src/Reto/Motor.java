@@ -1,5 +1,5 @@
 package Reto;
 
-public class Motor {
+public class Motor extends Barco {
 
 }
